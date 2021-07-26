@@ -1,6 +1,5 @@
 import express from 'express'
-import { verify } from 'jsonwebtoken'
-import { currentUser } from '../middlewares/current-user'
+import { currentUser } from '@sgtickets/common'
 
 const router = express.Router()
 
